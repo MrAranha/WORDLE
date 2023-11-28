@@ -53,5 +53,6 @@ public class Game {
             }
             System.out.print("\n");
         }
+        PrintConsole.Print(("Palavra Certa: " + PALAVRA_ESCOLHIDA), TerminalColors.ANSI_WHITE);
     }
 }
