@@ -51,6 +51,7 @@ public class Game {
                     PrintConsole.PrintSingleLine(Character.toString(Palpite.charAt(j)), TerminalColors.ANSI_GREEN);
                 }
             }
+            System.out.print("\n");
         }
     }
 }
